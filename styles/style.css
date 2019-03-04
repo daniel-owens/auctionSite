@@ -74,7 +74,7 @@ a.button:hover {
   	display: block;
 		position: relative;
     font-size: 30px;
-    left: 0px;
+    left: 10px;
   }
   a {
 		text-decoration: none;
@@ -88,8 +88,7 @@ a.button:hover {
 	a:hover {
 		text-decoration: none;
 		color: white;
-	}
-	
+	}	
 }
 
 
