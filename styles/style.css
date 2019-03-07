@@ -69,29 +69,5 @@ a.button:hover {
   z-index: -1;
 }
 
-@media only screen and (max-width: 600px) {
-  button {
-  	display: block;
-		position: relative;
-    font-size: 30px;
-    left: 10px;
-  }
-  a {
-		text-decoration: none;
-		background-color: #9ec8ef;
-		color: maroon;
-	}
-	a.button:hover {
-		background-color: maroon;
-		color: #9ec8ef;
-	}
-	a:hover {
-		text-decoration: none;
-		color: white;
-	}	
-}
-
-
-
 
 
