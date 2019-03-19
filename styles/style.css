@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	background-image: url("../images/bg.png");
@@ -89,7 +92,7 @@ hr {
 	right: 150px;
 }
 
-.sponsor-header {
+#sponsor-header {
 	color: #8e3515;
 }
 
