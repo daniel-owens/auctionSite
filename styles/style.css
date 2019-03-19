@@ -94,6 +94,7 @@ hr {
 
 #sponsor-header {
 	color: #8e3515;
+	scroll-behavior: smooth;
 }
 
 #sponsor-logo-row {
