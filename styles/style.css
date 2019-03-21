@@ -14,6 +14,7 @@ body {
   width: 950px;
   bottom: 20px;
   left: 30px;
+  z-index: -1;
 }
 
 .main-img {
@@ -103,6 +104,8 @@ hr {
 }
 
 .logo-desc {
+	position: relative;
+	right: 5px;
 	font-size: 13px;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
@@ -127,11 +130,11 @@ hr {
     position: relative;
 		display: block;
 		right: 0px;
-		top: 100px;
+		top: 0px;
   }
   .logo-desc {
   	position: relative;
-  	right: 60px;
+  	left: 300px;
   }
 }
 
@@ -140,7 +143,11 @@ hr {
     position: relative;
 		display: block;
 		left: 30px;
-		top: 100px;
+		top: 0px;
+  }
+  .logo-desc {
+  	position: relative;
+  	left: 20px;
   }
 }
 
