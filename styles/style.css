@@ -102,7 +102,16 @@ hr {
 	padding-bottom: 300px;
 }
 
-.tdl-logo {
+.logo-desc {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica, sans-serif;
+	color: #e2920f;
+	text-align: center;
+	letter-spacing: 0.5px;
+}
+
+.logos {
 	width: 250px;
 	height: 250px;
 }
@@ -111,6 +120,28 @@ hr {
 	background-color: none;
 	text-decoration: none;
 	color: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #buttons {
+    position: relative;
+		display: block;
+		right: 0px;
+		top: 100px;
+  }
+  .logo-desc {
+  	position: relative;
+  	right: 60px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+	#buttons {
+    position: relative;
+		display: block;
+		left: 30px;
+		top: 100px;
+  }
 }
 
 
