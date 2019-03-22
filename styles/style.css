@@ -125,19 +125,6 @@ hr {
 	color: none;
 }
 
-@media only screen and (max-width: 600px) {
-  #buttons {
-    position: relative;
-		display: block;
-		right: 0px;
-		top: 0px;
-  }
-  .logo-desc {
-  	position: relative;
-  	left: 300px;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
 	#buttons {
     position: relative;
@@ -147,7 +134,30 @@ hr {
   }
   .logo-desc {
   	position: relative;
-  	left: 20px;
+  	right: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #buttons {
+  	position: relative;
+  	top: 10px;
+  }
+  button {
+  	display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #buttons {
+    position: relative;
+		display: block;
+		right: 0px;
+		top: 10px;
+  }
+  .logo-desc {
+  	position: relative;
+  	right: 65px;
   }
 }
 
